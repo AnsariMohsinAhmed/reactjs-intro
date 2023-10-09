@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import EventHandling from './EventHandling'
-import States from './States';
+// import States from './States';
+import Props from './Props';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +12,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <EventHandling /> */}
-    <States/>
+    {/* <States/> */}
+    <Props />
   </React.StrictMode>
 );
 
